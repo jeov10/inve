@@ -49,6 +49,8 @@ h5 {
   --color-light: #FFFFFF;
   --color-undefined: #f4f3f3;
   --color-black: #000000;
+  --color-blue: #5fb6b0;
+  --color-dark-gray: #1c1c1c;
 }
 
 .u-bg-complementary {
@@ -93,6 +95,13 @@ h5 {
 
 .u-color-light {
   color: var(--color-light)
+}
+
+.u-bg-blue {
+  background-color: var(--color-blue)
+}
+.u-bg-dark-gray {
+  background-color: var(--color-dark-gray)
 }
 
 .link-item {
@@ -199,6 +208,27 @@ h5 {
   margin-top: 1rem;
 }
 
+.box-spot {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.box-spot__container {
+  width: 45%
+  padding: 1rem;
+}
+
+.box-spot__spot-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+
 .icon-box {
   width: 33.33%;
 }
@@ -213,9 +243,16 @@ h5 {
   padding: 1rem;
 }
 
-.target__top-border {
+.target__top-border_primary {
   border-top: 5px;
   border-style: solid;
+  border-color: var(--color-primary);
+}
+
+.target__top-border_blue {
+  border-top: 5px;
+  border-style: solid;
+  border-color: var(--color-blue);
 }
 
 .target__box {
@@ -225,10 +262,6 @@ h5 {
 
 .bottom-bar {
   width: 100%
-}
-
-.bottom-bar {
-
 }
 
 .bottom-bar__p_-margin {
@@ -267,4 +300,8 @@ h5 {
 
 .text-aling-justify {
   text-align: justify;
+}
+
+.text-aling-right {
+  text-align: right;
 }
