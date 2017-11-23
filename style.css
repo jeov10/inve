@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Avenirnext';
+  src: url(fonts/AvenirNext-Regular.ttf), url(fonts/AvenirNext-Regular.eot), url(fonts/AvenirNext-Regular.otf), url(fonts/AvenirNext-Regular.svg), url(fonts/AvenirNext-Regular.woff);
+}
+
+html {
+  font-family: 'Avenirnext';
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 8px;
+}
+
+h5 {
+  font-size: 4px;
+}
+
+.u-fs-super-small {
+  font-size: 11px;
+}
+
+.u-fw-bold {
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+:root {
+  --color-primary: #4b118b;
+  --color-accent: #ff3e00;
+  --color-complementary: #81d442;
+  --color-light: #FFFFFF;
+  --color-undefined: #f4f3f3;
+}
+
+.u-bg-complementary {
+  background: var(--color-complementary);
+}
+
+.u-bg-primary {
+  background: var(--color-primary);
+}
+
+.u-bg-accent {
+  background: var(--color-accent);
+}
+
+.u-bg-undefined {
+  background: var(--color-undefined);
+}
+
+.u-fc-light {
+  color: var(--color-light);
+}
+
+.u-color-primary {
+  color: var(--color-primary)
+}
+
+.u-color-complementary {
+  color: var(--color-complementary)
+}
+
+.u-color-accent {
+  color: var(--color-accent)
+}
+
+.u-color-light {
+  color: var(--color-light)
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.top-bar {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+.top-bar__p {
+  width: 90%;
+}
+
+.top-bar__icons {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+}
+
+.brand {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.brand-image {
+  width: 100%;
+}
+
+.brand__image--primary {
+  height: 40px;
+}
+
+.brand__caption {
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.menu {
+  width: 80%;
+}
+
+.menu__items {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.menu__items_list-row ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+
+.menu__items_list-row li
+{
+   list-style-type: none;
+   display: inline;
+}
+
+.u-sb-list-item {
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 999px) {
+  .top-bar {
+    display: none;
+  }
+}
+
+.slider-main {
+  padding-top: 50px;
+  background-color: red;
+}
+
+.box {
+  width: 100%;
+}
+
+.box__description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.icon-box {
+  width: 33.33%;
+}
+
+.section__icon-box_size {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.form__container {
+  width: 100%;
+  padding: 1rem;
+}
