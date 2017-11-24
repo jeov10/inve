@@ -38,8 +38,8 @@ h5 {
 .container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 75px;
-  margin-right: 75px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: auto;
 }
 
@@ -140,10 +140,10 @@ h5 {
 }
 
 .brand {
-  width: 20%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
 }
 
 .brand-image {
@@ -165,6 +165,7 @@ h5 {
 
 .menu {
   width: 80%;
+  display: none;
 }
 
 .menu__items {
@@ -207,19 +208,21 @@ h5 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .box-spot {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .box-spot__container {
-  width: 45%;
+  width: 100%;
   border-radius: 6px;
+  margin-bottom: 1rem;
 }
 
 .box-spot__spot-info {
@@ -229,22 +232,48 @@ h5 {
   padding: 1rem;
 }
 
+.icon-box__text-number--size {
+  font-size: 48px;
+}
 
 .icon-box {
-  width: 33.33%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
 }
 
 .section__icon-box_size {
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
 }
 
-.form__container {
-  width: 100%;
-  padding: 1rem;
+.padding-bottom-1rem {
+  padding-bottom: 1rem;
 }
 
+.form-inline {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
+.subscribe-form {
+  margin: auto;
+}
+
+.subscribe-form__items {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+.subscribe-form__items_mb {
+  margin-bottom:0.3rem;
+}
+
+.text-input {
+  padding: 8px 20px;
+  height: auto;
+}
 
 .top-border {
   border-top: 5px;
@@ -291,6 +320,7 @@ h5 {
   width: 100%
 }
 
+
 .brand-sitemap {
   width: 100%;
   display: flex;
@@ -298,7 +328,8 @@ h5 {
 }
 
 .brand-sitemap__item {
-  width: 25%
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 .link-list__item {
@@ -320,6 +351,10 @@ h5 {
   text-align: right;
 }
 
+.text-aling-center {
+  text-align: center;
+}
+
 
 .button-radius {
   border-radius: 4px;
@@ -331,62 +366,10 @@ h5 {
   font-family: 'Avenirnext';
 }
 
-@media screen and (max-width: 500px) {
-  .container {
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: auto;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .brand {
-    width: 100%
-  }
-
-  .brand-image, .brand__caption {
-    display: flex;
-    justify-content: center;
-  }
-
-  .box__description {
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-
-  .icon-box {
-    width: 100%
-  }
-
-  .form__container {
-    padding: 0px;
-  }
-
-  .box-spot__container {
-    width: 95%;
-    margin-top: 10px;
-  }
-
-  .box-spot {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .brand-sitemap {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .brand-sitemap__item {
-    width: 100%;
-    margin-top: 20px;
-  }
+.section-display {
+  display: none;
 }
+
 @media screen and (max-width: 999px) {
   .top-bar {
     display: none;
