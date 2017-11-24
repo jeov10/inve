@@ -109,6 +109,11 @@ h5 {
   text-decoration: none;
 }
 
+.link-item__border-bottom {
+  border-bottom-style: dotted;
+  border-width: 1px;
+}
+
 .top-bar {
   display: none;
 }
@@ -122,8 +127,9 @@ h5 {
 .top-bar__icons {
   width: 10%;
   display: flex;
-  justify-content: flex-end;
   justify-content: space-between;
+  padding-top: 8px;
+padding-bottom: 8px;
 }
 
 .nav-bar {
@@ -252,6 +258,8 @@ h5 {
 .form-inline {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .subscribe-form {
@@ -271,6 +279,10 @@ h5 {
 .text-input {
   padding: 8px 20px;
   height: auto;
+  margin-right: 1rem;
+  font-family: 'Avenirnext';
+  color: black;
+  font-size: 16px;
 }
 
 .top-border {
@@ -386,9 +398,7 @@ h5 {
   .subscribe-form__items_mb {
     width: 30%;
   }
-  .text-input {
-    margin-right: 1rem;
-  }
+
   .subscribe-form__items_mb {
     margin-bottom: 0px;
   }
@@ -405,7 +415,7 @@ h5 {
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 950px) {
   .top-bar {
     display: flex;
     flex-wrap: wrap;
@@ -413,6 +423,10 @@ h5 {
   }
   .section-display {
     display: inline;
+  }
+  .container {
+    padding-left: 75px;
+    padding-right: 75px;
   }
 }
 
