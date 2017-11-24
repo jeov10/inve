@@ -38,8 +38,8 @@ h5 {
 .container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 :root {
@@ -109,7 +109,6 @@ h5 {
 }
 
 .top-bar {
-  padding: 5px;
   display: flex;
   flex-wrap: wrap;
   width: 100%
@@ -117,6 +116,8 @@ h5 {
 
 .top-bar__p {
   width: 90%;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .top-bar__icons {
@@ -130,6 +131,11 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   width: 100%
+}
+
+.header__padding {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .brand {
