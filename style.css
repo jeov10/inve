@@ -217,8 +217,8 @@ h5 {
 }
 
 .box-spot__container {
-  width: 45%
-  padding: 1rem;
+  width: 45%;
+  border-radius: 6px;
 }
 
 .box-spot__spot-info {
@@ -243,16 +243,33 @@ h5 {
   padding: 1rem;
 }
 
-.target__top-border_primary {
+
+
+.top-border {
   border-top: 5px;
   border-style: solid;
+}
+
+.target__top-border_primary {
   border-color: var(--color-primary);
 }
 
 .target__top-border_blue {
-  border-top: 5px;
-  border-style: solid;
   border-color: var(--color-blue);
+}
+
+.form__container_border{
+  border-color: var(--color-accent);
+}
+
+.footer__top-border {
+  border-top: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+.footer__padding-top {
+  padding-top: 2rem;
 }
 
 .target__box {
@@ -267,10 +284,6 @@ h5 {
 .bottom-bar__p_-margin {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.top-border {
-  border-style: solid;
 }
 
 .footer {
@@ -304,4 +317,15 @@ h5 {
 
 .text-aling-right {
   text-align: right;
+}
+
+
+.button-radius {
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 16px;
+  font-family: 'Avenirnext';
 }
