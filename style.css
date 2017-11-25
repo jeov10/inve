@@ -138,16 +138,16 @@ padding-bottom: 8px;
   width: 100%
 }
 
-.header__padding {
+.header {
   padding-top: 15px;
-  padding-bottom: 15px;
+  height: 400px;
 }
 
 .brand {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  margin: auto;
 }
 
 .brand-image {
@@ -165,11 +165,16 @@ padding-bottom: 8px;
 .brand__caption {
   width: 100%;
   margin-bottom: 9px;
+  margin-right: 16px;
 }
 
 .menu {
-  width: 80%;
-  display: none;
+  width: 100%;
+}
+
+.menu ul li {
+  display: block;
+  margin-bottom: 1.5rem;
 }
 
 .menu__items {
@@ -384,6 +389,11 @@ padding-bottom: 8px;
   width: 100%;
 }
 
+.nav-bar__collapsed {
+  border: none;
+  padding: 0px;
+}
+
 @media screen and (min-width: 750px) {
   .box-spot__container {
     width: 48%;
@@ -395,15 +405,17 @@ padding-bottom: 8px;
   .subscribe-form__items {
     flex-flow: row;
   }
-  .subscribe-form__items_mb {
-    width: 30%;
-  }
 
   .subscribe-form__items_mb {
     margin-bottom: 0px;
+    width: 30%;
   }
   .brand-sitemap__item {
     width: 25%;
+  }
+
+  .brand {
+    float: left;
   }
 
   .button-resposive {
@@ -421,13 +433,37 @@ padding-bottom: 8px;
     flex-wrap: wrap;
     width: 100%
   }
+
   .section-display {
     display: inline;
   }
+
   .container {
     padding-left: 75px;
     padding-right: 75px;
   }
+
+  .brand {
+    width: 25%;
+  }
+
+  .menu {
+    width: 75%;
+  }
+
+  .nav-bar__collapsed {
+    display: none;
+  }
+
+  .menu ul li {
+    display: inline;
+    margin-bottom: 1.5rem;
+  }
+
+  .header {
+    height: 80px;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
