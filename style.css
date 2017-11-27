@@ -173,14 +173,38 @@ padding-bottom: 8px;
 
 .menu {
   display: none;
+  width: 100%;
 }
 
 .menu ul li {
   margin-bottom: 1.5rem;
+  padding-top: 10px;
 }
 
 .menu__items {
   margin-top: 25px;
+}
+
+div.menu__items li:hover {
+  border-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--color-complementary);
+  color: var(--color-complementary);
+}
+
+div.menu__items a:hover {
+  color: var(--color-complementary);
+}
+
+div.menu__items li:active {
+  border-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--color-complementary);
+  color: var(--color-complementary);
+}
+
+div.menu__items a:active {
+  color: var(--color-complementary);
 }
 
 .u-sb-list-item {
@@ -376,6 +400,8 @@ padding-bottom: 8px;
 .button-resposive {
   width: 100%;
 }
+
+
 
 
 
