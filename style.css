@@ -140,7 +140,7 @@ padding-bottom: 8px;
 
 .header {
   padding-top: 15px;
-  height: 400px;
+  height: 80px;
 }
 
 .brand {
@@ -168,34 +168,13 @@ padding-bottom: 8px;
   margin-right: 16px;
 }
 
-.menu {
-  width: 100%;
-}
 
 .menu ul li {
-  display: block;
   margin-bottom: 1.5rem;
 }
 
 .menu__items {
-  width: 100%;
   margin-top: 25px;
-  margin-left: 10px;
-}
-
-.menu__items_list-row ul
-{
-   padding-right: 0px;
-   padding-left: 0px;
-   padding-bottom: 0px;
-   padding-top: 0px;
-   margin: 0px;
-}
-
-.menu__items_list-row li
-{
-   list-style-type: none;
-   display: inline;
 }
 
 .u-sb-list-item {
@@ -284,7 +263,6 @@ padding-bottom: 8px;
 .text-input {
   padding: 8px 20px;
   height: auto;
-  margin-right: 1rem;
   font-family: 'Avenirnext';
   color: black;
   font-size: 16px;
@@ -409,6 +387,7 @@ padding-bottom: 8px;
   .subscribe-form__items_mb {
     margin-bottom: 0px;
     width: 30%;
+    margin-right: 15px;
   }
   .brand-sitemap__item {
     width: 25%;
@@ -424,6 +403,9 @@ padding-bottom: 8px;
   .icon-box {
     width: 33.33%;
     margin-top: 2rem;
+  }
+  .subscribe-form__items {
+    margin-right: 15px;
   }
 }
 
@@ -447,28 +429,16 @@ padding-bottom: 8px;
     width: 25%;
   }
 
-  .menu {
-    width: 75%;
-  }
-
   .nav-bar__collapsed {
     display: none;
   }
 
   .menu ul li {
     display: inline;
-    margin-bottom: 1.5rem;
   }
 
   .header {
     height: 80px;
-  }
-
-}
-
-@media screen and (min-width: 1200px) {
-  .menu {
-    display: inline;
   }
 
 }
