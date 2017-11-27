@@ -9,7 +9,6 @@ function main() {
         $('.header').animate({
           height: '400'
         });
-
         contador = 0;
       } else {
         contador = 1;
