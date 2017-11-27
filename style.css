@@ -177,6 +177,7 @@ padding-bottom: 8px;
 .menu {
   display: none;
   width: 100%;
+  padding-bottom: 32px;
 }
 
 .menu ul li {
@@ -187,6 +188,7 @@ padding-bottom: 8px;
 
 .menu__items {
   margin-top: 24px;
+  width: 100%
 }
 
 div.menu__items li:hover {

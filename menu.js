@@ -3,18 +3,18 @@ $(document).ready(main);
 var contador = 1;
 
 function main() {
-  $('.nav-bar__collapsed').click(function(){
-      $('.menu').toggle();
+  $('.nav-bar__collapsed').click(function() {
+      //$('.menu').toggle();
       if(contador == 1) {
-        $('.header').animate({
-          height: '400'
+        $('.menu').animate( {
+          height: 'toggle'
         });
         contador = 0;
       } else {
         contador = 1;
-        $('.header').animate({
-          height: '80'
-        });
+        $('.menu').animate( {
+          height: 'toggle'
+        } );
       }
-  });
+  } );
 };
