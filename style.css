@@ -145,8 +145,6 @@ padding-bottom: 8px;
 
 .brand {
   width: 90%;
-  display: flex;
-  flex-wrap: wrap;
   margin: auto;
 }
 
