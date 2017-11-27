@@ -178,6 +178,7 @@ padding-bottom: 8px;
   display: none;
   width: 100%;
   padding-bottom: 32px;
+  position: absolute;
 }
 
 .menu ul li {
@@ -475,6 +476,7 @@ div.menu__items a:active {
   .menu {
     display: inline;
     width: auto;
+    position: unset;
   }
 
   .nav-bar {
