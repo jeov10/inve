@@ -404,6 +404,12 @@ padding-bottom: 8px;
   .button-resposive {
     width: 30%;
   }
+
+  .section-display__button-size{
+    width: 160px;
+    height: 49px;    
+  }
+
   .icon-box {
     width: 33.33%;
     margin-top: 2rem;
