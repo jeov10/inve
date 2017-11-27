@@ -230,6 +230,10 @@ padding-bottom: 8px;
   text-align: center;
 }
 
+.icon-box__img-size {
+  height: 96px;
+}
+
 .section__icon-box_size {
   margin-bottom: 2.5rem;
   margin-top: 2.5rem;
