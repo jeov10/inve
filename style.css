@@ -168,6 +168,9 @@ padding-bottom: 8px;
   margin-right: 16px;
 }
 
+.menu {
+  display: none;
+}
 
 .menu ul li {
   margin-bottom: 1.5rem;
@@ -407,7 +410,7 @@ padding-bottom: 8px;
 
   .section-display__button-size{
     width: 160px;
-    height: 49px;    
+    height: 49px;
   }
 
   .icon-box {
