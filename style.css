@@ -7,23 +7,23 @@ html {
   font-family: 'Avenirnext';
 }
 
-h1 {
+.h1 {
   font-size: 32px;
 }
 
-h2 {
+.h2 {
   font-size: 24px;
 }
 
-h3 {
+.h3 {
   font-size: 16px;
 }
 
-h4 {
+.h4 {
   font-size: 8px;
 }
 
-h5 {
+.h5 {
   font-size: 4px;
 }
 
@@ -44,7 +44,7 @@ h5 {
   --color-black: #000000;
   --color-blue: #5fb6b0;
   --color-dark-gray: #1c1c1c;
-  --color-gray-title: #595959;
+  --color-black-font: rgba(255, 0, 0, 0.87);
 }
 
 .u-bg-complementary {
@@ -99,8 +99,8 @@ h5 {
   color: var(--color-white)
 }
 
-.u-color-gray-title {
-  color: var(--color-gray-title)
+.u-color-black-font {
+  color: var(--color-black-font)
 }
 
 .container {
