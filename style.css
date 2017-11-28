@@ -159,7 +159,7 @@ padding-bottom: 8px;
 .header__container {
   padding-left: 16px;
   padding-right: 16px;
-  margin: auto;
+  margin: auto
 }
 
 .menu__container {
@@ -318,6 +318,7 @@ div.menu__items a:active {
 
 .subscribe-form__items_mb {
   margin-bottom:0.3rem;
+  border-radius: 4px;
 }
 
 .text-input {
@@ -480,7 +481,7 @@ div.menu__items a:active {
   }
 
   .section-display {
-    display: inline;
+    display: inline !important;
   }
 
   .container {
