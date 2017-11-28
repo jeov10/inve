@@ -198,6 +198,9 @@ padding-bottom: 8px;
   margin-right: 3px;
   padding-top: 8px;
 }
+.menu ul li a {
+  display: block;
+}
 
 .menu__items {
   margin-top: 24px;
@@ -520,6 +523,10 @@ div.menu__items a:active {
 
   .menu ul li {
     display: inline;
+  }
+
+  .menu ul li a {
+    display: unset;
   }
 
   .header {
