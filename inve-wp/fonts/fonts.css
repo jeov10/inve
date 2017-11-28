@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('../fonts/AvenirNext-Regular.eot');
+}
+
+.greenBarItems {
+    font-size: 16px;
+    color: white;
+}
+
+.menuItems {
+  color: white !important;
+  font-size: 16px;
+  font-family: 'AvenirNext-Regular';
+}
+
+.logoDescription {
+  font-size: 11px;
+  color: white;
+  font-family: 'AvenirNext-Regular';
+}
